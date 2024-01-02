@@ -1,4 +1,11 @@
 def is_consecutive_subsequence(subsequence:list, sequence:list) -> bool:
+    '''
+    c
+    :param subsequence: list of attributes
+    :param sequence: list of attributes
+    :return: bool
+    '''
+    
     sub_len = len(subsequence)
     seq_len = len(sequence)
 
@@ -13,9 +20,9 @@ def is_consecutive_subsequence(subsequence:list, sequence:list) -> bool:
 
 def seqMining(seq1:list, seq2:list) -> list:
     '''
-    Function is used to mine a script, a sequence of successive list of attributes in form of numbers.
-    :param seq1: list of numbers
-    :param seq2: list of numbers
+    The function is used to mine a script, a sequence of the successive list of attributes.
+    :param seq1: list of attributes
+    :param seq2: list of attributes
     :return: all successive chunks as intersection of input lists
     '''
 
