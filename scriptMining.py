@@ -1,6 +1,6 @@
 def is_consecutive_subsequence(subsequence:list, sequence:list) -> bool:
     '''
-    c
+    The function checks if the sequence contains consecutive subsequence.
     :param subsequence: list of attributes
     :param sequence: list of attributes
     :return: bool
